@@ -1,0 +1,68 @@
+# Database & Logs
+data/*.db
+data/*.sqlite
+*.log
+login_attempts.log
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Node (for development tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer
+composer.lock
+/vendor/
+
+# PHP temporary files
+*.php~
+.php_cs.cache
+
+# OS
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# Sensitive files
+.env
+.env.local
+config.local.php
+
+# Cache
+.cache/
+*.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Build artifacts
+dist/
+build/
+out/
+
+# OS specific
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+
+# PHPDesktop specific
+php-cgi.exe
+php.exe
+Chrome*
